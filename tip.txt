@@ -23,7 +23,26 @@ git reset --hard [git log의 커밋 해쉬코드]
 - 커밋 번호에 해당하는 커밋으로 코드를 롤백
 
 
-gir reset --hard 
+git reset --hard 
 
 - 마지막으로 커밋된 상태를 날리고 이전으로 돌아간다.
  
+
+git remote add origin 레포지토리 주소
+
+- 레포지토리와 내 로컬 폴더를 연결한다.
+
+
+git push origin main 
+
+- 깃허브 레포지토리 메인 브렌치에 현재 커밋들을 넣는다.
+
+
+git clone 레포지토리 주소
+
+- 깃허브 레포지토리 모든 커밋들을 내 로컬로 가져온다.
+
+
+git pull origin master 
+
+- 서버에서 변경사항이 일어난 것을 로컬로 동기화한다.
