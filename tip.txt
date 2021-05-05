@@ -1,0 +1,29 @@
+git init 
+
+- .git 폴더 생성 그리고 .git을 생성한 폴더는 git이 관리하기 시작함.
+
+
+git add .
+
+- 모든 파일 스테이징(추적)
+
+
+git commit -m
+
+- message 이름으로 현재 코드들을 기억함
+
+
+git log 
+
+- 커밋 로그를 확인
+
+
+git reset --hard [git log의 커밋 해쉬코드]
+
+- 커밋 번호에 해당하는 커밋으로 코드를 롤백
+
+
+gir reset --hard 
+
+- 마지막으로 커밋된 상태를 날리고 이전으로 돌아간다.
+ 
