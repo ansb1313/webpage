@@ -47,4 +47,40 @@ git pull origin master
 
 - 서버에서 변경사항이 일어난 것을 로컬로 동기화한다.
 
+
+컨플릭트 해결
+
+- git pull 로 원격의 변경사항을 받아서 해당 부분 수정
+
+
+git branch 
+
+- 현재 생성되어있는 브랜치의 목록을 본다.
+
+
+git branch newFeature
+
+- newFeature라는 새로운 브랜치를 만든다.
+
+
+git checkout newFeature 
+
+- newFeature라는 브랜치로 이동한다.
+
+
+git branch -D newFeature
+
+- newFeature라는 브랜치를 삭제한다.
+
+
+git push origin 브랜치이름
+
+- 특정 브랜치를 깃허브에 푸쉬한다
+
+
+git pull origin 브랜치이름
+
+- 브랜치를 깃허브에서 가져와 최신화한다. 
+
+
 .
