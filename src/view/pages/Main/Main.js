@@ -1,21 +1,17 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
+import MainContainer from "../../Container/MainContainer";
 
-const Main = () => {
+const Main = (props) => {
 
-    return(
-
-        <Container>
-            Main
-        </Container>
-
-    )
-
+  return(
+    <Container>
+      <MainContainer/>
+    </Container>
+  )
 }
 
 const Container = styled.div`
-  background: rgba(249,249,249);
-  flex: 1;
 `
 
-export default Main;
+export default Main
